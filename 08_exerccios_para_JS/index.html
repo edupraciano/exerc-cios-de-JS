@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+  <h3> Q.001. Faça um Programa que peça um número e então mostre a mensagem: O número informado foi [número].</h3>
+<label for=""> Digite um número  <input id="txt1" type="text" value=" "> <button onclick="validar()" id="btn" type="submit">Hit me</button> </label>
+<p id="res1">O Resultado aparecerá aqui > </p>
+
+<hr>
+
+<h3> Q.002. Faça um Programa que converta metros para centímetros. (Dica: 1 metro = 100 centímetros)</h3>
+<label for=""> Digite um número em metros <input id="txt2" type="text" value=" "> <button onclick="converterCm()" id="btn" type="submit">Hit me</button> </label>
+<p id="res2">O Resultado aparecerá aqui > </p>
+
+<hr>
+
+<h3> Q.003. Faça um Programa que converta  centímetros  para polegadas. (Dica: 1 centímetro = 0.393700787 polegadas)
+</h3>
+<label for=""> Digite um número em centímtros</label> <input id="txt3" type="text" value=" "> <button onclick="converterP()" id="btn" type="submit">Hit me</button> </label>
+<p id="res3">O Resultado aparecerá aqui > </p>
+
+<hr>
+
+<h3> Q.004. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. Fórmula: Area = pi * raio².  
+</h3>
+<label for=""> Indique o valor do raio (em Cm.)</label> <input id="txt4" type="text" value=" "> <button onclick="calcularArea()" id="btn" type="submit">Hit me</button> </label>
+<p id="res4">O Resultado aparecerá aqui > </p>
+
+<hr>
+
+<h3> Q.005. Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius. Fórmula:  Celsius = (5 * (Farenheit - 32) / 9)</h3>
+<label for=""> Indique o valor em graus Farenheit (ºF)</label> <input id="txt5" type="text" value=" "> <button onclick="converterC()" id="btn" type="submit">Hit me</button> </label>
+<p id="res5">O Resultado aparecerá aqui > </p>
+
+<hr>
+
+<h3> Q.006. Faça um Programa que peça as 4 notas bimestrais e mostre a média. </h3>
+<p> <label for=""> Digite a nota do 1º bimestre </label> <input id="bi1" type="text" value=" "> </label> </p> <br>
+<p> <label for=""> Digite a nota do 2º bimestre </label> <input id="bi2" type="text" value=" "> </label> </p> <br>
+<p> <label for=""> Digite a nota do 3º bimestre </label> <input id="bi3" type="text" value=" "> </label> </p> <br>
+<p> <label for=""> Digite a nota do 4º bimestre </label> <input id="bi4" type="text" value=" "> </label> </p> <br>
+<button onclick="calcularMedia()" id="btn" type="submit">Calcular a média</button> 
+<p id="res6">O Resultado aparecerá aqui > </p> 
+
+<hr>
+
+<h3> Q.007. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit. Fórmula: Farenheit = (Celsius * 1.8) + 32</h3>
+<label for=""> Indique o valor em graus Celsius (ºC)</label> <input id="txt7" type="text" value=" "> <button onclick="converterF()" id="btn" type="submit">Hit me</button> </label>
+<p id="res7">O Resultado aparecerá aqui > </p>
+
+<hr>
+
+<h3> Q.008. Faça um Programa que peça o valor da gasolina e do álcool de um posto e diga qual é o combustível mais vantajoso abastecer, sabendo que somente é vantagem abastecer álcool se o preço do mesmo é menor ou igual a 70% do valor da gasolina.</h3>
+<p> <label for=""> Preço da gasolina </label> <input id="gas" type="text" value=" "> </label> </p> <br>
+<p> <label for=""> Preço do Álcool </label> <input id="alc" type="text" value=" "> </label> </p> <br>
+<button onclick="comparar()" id="btn" type="submit">Hit me</button> 
+<p id="res8">O Resultado aparecerá aqui > </p>
+
+<!-- https://sites.google.com/site/profdanielbaumann/home/cursos-ministrados/programacao-web-i/lista-de-exercicio-javascript -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
